@@ -10,4 +10,8 @@ val gatlingVersion = "3.14.9"
 libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % gatlingVersion % "test,it"
 libraryDependencies += "io.gatling"            % "gatling-test-framework"    % gatlingVersion % "test,it"
 
+Global / cancelable := true
+Gatling / fork := true
+
+
 // Enterprise Cloud (https://cloud.gatling.io/) configuration reference: https://docs.gatling.io/reference/integrations/build-tools/sbt-plugin/#running-your-simulations-on-gatling-enterprise-cloud

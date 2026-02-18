@@ -1,6 +1,13 @@
-target
 .idea
 .settings
 .classpath
 .project
 .bsp
+.vscode
+.metals
+target/*
+!target/gatling
+memory-bank
+.bloop
+.cllinerules
+project
