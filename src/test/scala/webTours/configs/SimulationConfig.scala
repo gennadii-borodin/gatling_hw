@@ -8,5 +8,5 @@ object SimulationConfig {
     val stageDuration = 3.minute
     val rampDuration = 20.seconds
     val stabilityDuration = 1.hour
-    val stabilibyIntensity =5
+    val stabilibyIntensity = 5
 }
