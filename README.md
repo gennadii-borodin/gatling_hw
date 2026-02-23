@@ -107,16 +107,6 @@ $ sbt "testOnly webTours.MaxPerformanceTest"
 $ sbt "testOnly webTours.Stability -Dvu=10"
 ```
 
-### Integration Tests
-
-```bash
-# Run integration tests
-$ sbt it:test
-
-# Run specific integration test
-$ sbt "it:testOnly example.BasicItSimulation"
-```
-
 ## Test Data
 
 User data is loaded from CSV files in the `test_data` directory:
